@@ -1,0 +1,5 @@
+[package]
+name = "plato-e2e-pipeline"
+version = "0.1.0"
+edition = "2021"
+description = "End-to-end DCS → belief → deploy pipeline — proves the stack works as one system"
