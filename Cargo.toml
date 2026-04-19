@@ -2,4 +2,20 @@
 name = "plato-e2e-pipeline"
 version = "0.1.0"
 edition = "2021"
-description = "End-to-end DCS → belief → deploy pipeline — proves the stack works as one system"
+rust-version = "1.75"
+description = "End-to-end DCS → belief → deploy pipeline — proves the PLATO stack works as one system"
+license = "MIT"
+repository = "https://github.com/SuperInstance/plato-e2e-pipeline"
+
+[lib]
+name = "plato_e2e_pipeline"
+path = "src/lib.rs"
+
+# ── Fleet crate dependencies ──────────────────────────────────────────────────
+# APIs from these crates are inlined in src/lib.rs with attribution.
+# To use live git deps instead, uncomment and remove the inline sections:
+#
+# [dependencies]
+# plato-dcs            = { git = "https://github.com/SuperInstance/plato-dcs" }
+# plato-unified-belief = { git = "https://github.com/SuperInstance/plato-unified-belief" }
+# plato-deploy-policy  = { git = "https://github.com/SuperInstance/plato-deploy-policy" }
