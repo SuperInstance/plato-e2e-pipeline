@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: plato-e2e-pipeline
+Version: 0.1.0
+Summary: End-to-end tile pipeline — mint, validate, score, store, search, dedup
+License: MIT
+Requires-Python: >=3.8
